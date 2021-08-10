@@ -3,10 +3,12 @@ import './App.css';
 import AllMeetUpsPage from './pages/AllMeetUps';
 import FavoritesPage from './pages/Favorites';
 import NewMeetUpPage from './pages/NewMeetUps';
+import MainNavigation from './components/layout/MainNavigation';
 
 function App() {
   return (
     <div>
+      <MainNavigation />
       <Switch>
         <Route path='/' exact>
           <AllMeetUpsPage />
