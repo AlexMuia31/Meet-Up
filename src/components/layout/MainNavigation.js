@@ -4,7 +4,7 @@ import classes from './MainNavigation.module.css';
 const MainNavigation = () => {
     return (
         <header className={classes.header}>
-            <div>Muia Meetups</div>
+            <div className={classes.logo}>Muia MeetUps</div>
             <nav>
                 <ul>
                     <li>
